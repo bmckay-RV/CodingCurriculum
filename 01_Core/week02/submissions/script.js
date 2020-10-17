@@ -33,6 +33,7 @@ function inject(s) {
         var row = table.insertRow(-1);
 
         var cell1 = row.insertCell(0);
+        cell1.className = "colorMe"
         let text1 = document.createTextNode(sortedNames[1]);
         console.log("adding: " + text1.textContent)
         cell1.appendChild(text1);
@@ -40,7 +41,6 @@ function inject(s) {
        
         var cell2 = row.insertCell(0);
         let text2 = document.createTextNode(sortedNames[0]);
-        cell2.className = "colorMe"
         console.log("adding: " +text2.textContent)
         cell2.appendChild(text2);  
     });
