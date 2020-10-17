@@ -1,0 +1,183 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #333; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav strong {
+    color: white;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+  }
+  
+
+  .topnav {
+        background-color: #333;
+        position: fixed;
+        width:  100%;
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */ 
+        left: 0;       
+  }
+
+  .topnav a {
+    float: left;
+    margin-left: 160px;
+    color: #818181;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #f1f1f1;
+  }
+
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+  }
+  
+
+
+
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    color:  #333
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    float: left;
+    margin-left: 160px;
+    border: none;
+    color:  #818181;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: inherit;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+    color: #f1f1f1
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    text-align: left;
+    margin-top: 55px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #818181;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+
+  .colorMe {
+      color: red;
+      text-transform: uppercase;
+      font-weight: bolder;
+  }
+
+
+
+
+   /* Style page content */
+   .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 55px 55px;
+  }
+
+  .form {
+      text-align: left;
+      font-size: 25px;
+      margin-left: 160px;
+      padding: 55px 55px;
+      ;
+  }
+
+  p {
+    padding: 30px;
+    
+  }
+
+body {
+    background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+footer {
+    color: white ;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: end ;
+}
+
+a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #333;
+    display: block;
+}
+
+
+
+
+ a:hover {
+    color: #f1f1f1;
+  }
+

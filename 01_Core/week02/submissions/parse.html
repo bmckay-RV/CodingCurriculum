@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Dropdown #1</a>
+                <a href="#">Dropdown #2</a>
+                <a href="#">Dropdown #3</a>
+                <a href="#">Dropdown #4</a>
+                <a href="#">Dropdown #5</a>
+              </div>
+        </div>
+
+        <a class="active" href="parse.html">NameParsing</a>
+        <a href="#">Item5</a>
+      </div> 
+    <title>Contact Rainbow, Inc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <aside> 
+        <div class="sidenav">
+            <strong> Our Friends: </strong>
+            <a href="https://skittles.com/">Skittles</a>
+            <a href="https://www.google.com/search?hl=EN&tbm=isch&source=hp&biw=1361&bih=875&ei=zCeLX6eJDrHI5gKT947wBQ&q=gasoline+in+water+puddles&oq=gasoline+in+water+puddles&gs_lcp=CgNpbWcQA1CJGFiJGGCPJmgAcAB4AIABkQGIAZEBkgEDMC4xmAEAoAECoAEBqgELZ3dzLXdpei1pbWewAQA&sclient=img&ved=0ahUKEwinn5DAkbzsAhUxpFkKHZO7A14Q4dUDCAY&uact=5">Pictures of Gasoline and Water puddles</a>
+            <a href="https://en.wikipedia.org/wiki/Rainbow">Wiki</a>
+        </div>    
+    </aside>
+        <div id= "myform" class="form">  
+            <h2>Give me your List of Names</h2> 
+            <section>
+                <label for="inputtedNames">Input Names:</label> <br>
+                <textarea id="inputtedNames" name="inputtedNames" rows="30" cols="100"></textarea><br>
+                <input type="submit" value="Parse" onclick="parse()"> <br><br>
+
+               <table id="myTable">
+                   <tr>
+                       <th>First</th>
+                       <th>Last</th>
+                   </tr>
+                   <tr></tr>
+               </table>
+            </section>
+        
+        </form>
+    </div>
+</body>
+    <footer> 
+        <strong>find us on social media: </strong>
+        <a href="https://twitter.com/?lang=th"> twitter</a>
+        <a href="https://www.farmersonly.com/"> farmersonly</a>
+        <a href="https://www.tiktok.com/en/">tiktok</a>
+        &copy; 2010<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Company.
+    </footer>
+</html>
