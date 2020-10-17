@@ -17,4 +17,4 @@ Next, install Xcode. Open iTerm2 and type:
 
 Then, install Homebrew. In the terminal you just used, type:
 
-> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
