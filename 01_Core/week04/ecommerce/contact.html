@@ -5,57 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact | Robespierre Records and DVD</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/mainStyles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <div class="navbar_wraper">
-        <!-- will load common navbar with js $().load() method -->
-    </div>
-
-    <section class="about_intro">
-        <div class="container text-center">
-            <div class="col-md-6 col-lg-7 mx-auto">
-                <p class="mb-2 robo_bold_12">TAGLINE</p>
-                <h1 class="hero_tagline">
-                    Contact Max: 
-                </h1>
-                <p class="robo_reg_16">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
-
-            <div class="col-12 logo_wrap">
-                <img src="/img/Logos/logo-1.png" alt="">
-                <img src="/img/Logos/logo-2.png" alt="">
-                <img src="/img/Logos/logo-3.png" alt="">
-                <img src="/img/Logos/logo-4.png" alt="">
-                <img src="/img/Logos/logo-5.png" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="about_info_section my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 text-center mx-auto">
-                    <p class="robo_reg_16">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+        <div class="navbar navbar-inverse navbar-fixed-top" id="navbar-site">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <img src="img/Logos/logo-1.png" style="width:30px">
+                    </a>
                 </div>
-                <div class="col-md-10 mx-auto mt-5">
-                        <div class="video_container">
-                            <img src="/img/play-button.svg" width="50px;" alt="" class="img-fuid">
-                        </div>
-                    </div>
+                <div class="navbar-collapse collapse navbar-options">
+                    <ul class="nav navbar-nav">
+                       <li class="nav_home"><a href="index.html"><img src="img/Logos/logo-1.png" style="width:30px"></a></li>
+                        <li class="nav_products"><a href="products.html">Products</a></li>
+                        <li class="nav_contact active"><a href="#">Contact</a></li>
+                        <li class="nav_search"><a href="search.html">Search</a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
+    </div>
+
+    <section class="home_header center_div">
+        
+        <div class="form">
+            <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+                <div class="container center_div">
+                    <h1 class="hero_tagline">
+                        Contact Max:
+                    </h1>
+                </div>
+                <div class="form-group">
+                    <label for="name">name:</label>
+                    <input type="name" class="form-control" id="name">
+                    </div>
+                <div class="form-group">
+                    <label for="email">email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">phone:</label>
+                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                </div>
+                <div class="form-group">
+                    preferred contact method... 
+                    <label class="radio-inline"><input type="radio" name="opt" checked>phone</label>
+                    <label class="radio-inline"><input type="radio" name="opt">email</label>
+                </div>
+                <div class="form-group"></div>
+                    how'd ya hear about us...
+                        <div class="checkbox"><label><input type="checkbox"> conference</label></div>
+                        <div class="checkbox"><label><input type="checkbox"> tv</label></div>
+                        <div class="checkbox"><label><input type="checkbox"> radio</label></div>
+                        <div class="checkbox"><label><input type="checkbox"> word of mouth</label></div>
+                        <div class="checkbox"><label><input type="checkbox"> other</label></div>
+
+                
+                <div class="form-group">
+                    <label for="comment">additional comments...</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div> 
+                 <button type="submit" class="btn btn-default">Submit</button>
+            </form> 
         </div>
     </section>
 
 
-    <div class="footer_wraper">
-        <!-- will load common footer with js $().load() method -->
-    </div>
     <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/esm/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
