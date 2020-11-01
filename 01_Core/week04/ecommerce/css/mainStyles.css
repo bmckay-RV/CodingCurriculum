@@ -1,0 +1,223 @@
+body {
+  width: 100%;
+  height: 100%; 
+  margin: 0; 
+  background-color: black;
+  color: white;
+  max-width: 1000px;
+}
+
+.mySlides >a>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  500px;
+  height: 500px;
+  
+}
+
+
+
+.navbar {
+  min-height: 50px;
+  background-color: white;
+  
+}
+ .home_header {
+   padding-top: 50px;
+   padding-left: 50px;
+ }
+ @media (max-width: 800px) {
+  li.nav_home{
+    display: none;
+  }
+
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  .mySlides >a>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+}
+
+}
+.footer_wraper{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+  
+
+
+@font-face {
+  font-family: 'Roboto_Regular';
+  src: url("fonts/Roboto-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Roboto_Medium';
+  src: url("fonts/Roboto-Medium.ttf") format("trueType"); }
+@font-face {
+  font-family: 'Roboto_Bold';
+  src: url("fonts/Roboto-Bold.ttf") format("truetype"); }
+.roboto_regular_base, .robo_reg_26, .robo_reg_22, .robo_reg_16, .robo_reg_12 {
+  font-family: 'Roboto_Regular';
+  color: white; }
+
+/* Slideshow container */
+.slideshow-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+   
+.hero_tagline {
+  font-family: 'Roboto_Bold';
+  font-size: 28px;
+  line-height: 36px;
+  margin: 20px 0px; 
+  text-align: center;
+}
+.center_div{
+  margin: 0 auto;
+  width:50% /* value of your choice which suits your alignment */
+}
+
+
+.productContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+    
+}
+
+.card {
+    padding-top: 6%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    color: grey;
+}
+.card_group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+
+/*# sourceMappingURL=mainStyles.css.map */
