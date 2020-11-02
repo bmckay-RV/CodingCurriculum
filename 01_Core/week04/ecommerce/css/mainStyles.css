@@ -86,7 +86,7 @@ body {
 }
 
 ::placeholder{
-  color: black;
+  color:black;
 }
 
 
@@ -204,7 +204,11 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 15%;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 15%;
   border-radius: 3px 0 0 3px;
 }
 
